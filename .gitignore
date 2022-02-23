@@ -13,9 +13,10 @@
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
-.prettierignore
+
+.parcel-cache
 README-template.md
 style-guide.md
 node_modules
-distgit rm -rf --cached .
+dist
 design
