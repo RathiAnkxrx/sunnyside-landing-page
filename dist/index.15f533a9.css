@@ -1,0 +1,196 @@
+@media (max-width: 86em) {
+  .skill-text {
+    margin: 0;
+  }
+}
+
+/****************/
+
+/* 1264 px */
+
+/****************/
+
+@media (max-width: 79em) {
+  .hero-text-box {
+    margin: 8rem;
+  }
+  .hero-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+
+  .list-items {
+    gap: 1.2rem;
+  }
+}
+
+/****************/
+
+/* 1040 px */
+
+/****************/
+
+@media (max-width: 65em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .brand-name {
+    font-size: 3.4rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.4rem;
+  }
+  .hero-text-box {
+    margin: 6.4rem 4.8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    padding: 1rem 2rem;
+  }
+  .primary-heading {
+    font-size: 4.8rem;
+  }
+
+  .hero-skill {
+    padding: 52% 10% 8% 10%;
+  }
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+  .tertiary-heading {
+    font-size: 3rem;
+  }
+}
+
+/****************/
+
+/* 720 px */
+
+/****************/
+
+@media (max-width: 45em) {
+  .grid-2-colums,
+  .grid-3-colums {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-4-colums {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-transform-img,
+  .hero-standout-img {
+    height: 50rem;
+  }
+
+  .hero-transform-img {
+    background-image: url("image-transform.d74d6d86.jpg");
+  }
+
+  .hero-standout-img {
+    background-image: url("image-stand-out.785fa5bf.jpg");
+  }
+
+  .graphic-design {
+    background-image: url("image-graphic-design.a26623e2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+
+  .hero-text-box {
+    max-width: 60%;
+    margin: 8rem auto;
+    text-align: center;
+  }
+  .hero-transform-img {
+    grid-row: 1/2;
+  }
+  .hero-standout-img {
+    grid-row: 3/4;
+  }
+
+  .section-testimonial {
+    max-width: 60rem;
+    margin: 9.6rem auto;
+  }
+
+  /*************************/
+  /* mobile nav open */
+  /*************************/
+
+  .header {
+    height: 80rem;
+    background-image: url("image-header.140d036b.jpg");
+  }
+  .navigation {
+    padding: 0 6.4rem;
+    text-align: center;
+  }
+  .btn-mobile-nav {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .brand-name {
+    font-size: 3.2rem;
+  }
+  .main-nav {
+    position: absolute;
+    top: 14.4rem;
+    left: 6.4rem;
+    right: 6.4rem;
+    background-color: #fff;
+    text-align: center;
+    padding: 4.8rem 0;
+    transform: translateX(100%);
+    /* hidding content */
+    opacity: 0;
+
+    /* Make it unassesible to mouse */
+    pointer-events: none;
+
+    /* hide it form screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+
+  .main-nav::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-bottom-color: #fff;
+    border-top: 0;
+    border-right: 0;
+    margin-left: -15px;
+    margin-top: -30px;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3.2rem;
+    color: #888;
+  }
+
+  .btn {
+    background-color: hsl(51, 100%, 49%);
+  }
+
+  .list-items {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+}
+
+/*# sourceMappingURL=index.15f533a9.css.map */

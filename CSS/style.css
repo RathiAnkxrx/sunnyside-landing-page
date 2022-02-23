@@ -1,0 +1,305 @@
+/*******************/
+/* HEADER-SECTION */
+/*******************/
+.header {
+  background-image: url(../images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Fraunces", serif;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Frances", sans-serif;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.brand-name {
+  color: #fff;
+  font-weight: 900;
+  font-size: 4.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.btn.main-nav-link:link,
+.btn.main-nav-link:visited {
+  color: hsl(212, 27%, 19%);
+}
+
+.arrow-down {
+  display: inline-block;
+  font-size: 12rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20rem;
+}
+
+.btn-mobile-nav {
+  display: none;
+}
+
+.icon-mobile-nav {
+  color: #eee;
+  width: 4.8rem;
+  height: 4.8rem;
+}
+/*******************/
+/* HERO-SECTION */
+/*******************/
+
+.section-hero {
+  max-width: 200rem;
+  margin: 0 auto;
+}
+
+.hero-text-box {
+  font-family: "Barlow", sans-serif;
+  margin: 12rem;
+}
+
+.hero-description {
+  margin-top: 2.4rem;
+  color: hsl(232, 10%, 55%);
+  line-height: 2;
+  font-weight: 600;
+
+  font-size: 2rem;
+}
+
+.hero-link {
+  margin: 2.4rem 0;
+}
+
+.learn-more:link,
+.learn-more:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Fraunces", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(212, 27%, 19%);
+  padding-bottom: 3px;
+}
+
+.transform-link:link,
+.transform-link:visited {
+  border-bottom: 8px solid hsl(51, 97%, 75%);
+}
+
+.transform-link:active,
+.transform-link:hover {
+  border-bottom: 8px solid hsl(51, 100%, 49%);
+}
+
+.standout-link:link,
+.standout-link:visited {
+  border-bottom: 8px solid hsl(7, 96%, 79%);
+}
+
+.standout-link:active,
+.standout-link:hover {
+  border-bottom: 8px solid hsl(7, 99%, 70%);
+}
+
+.hero-transform-img,
+.hero-standout-img {
+  background-size: cover;
+  background-position: center;
+}
+.hero-transform-img {
+  background-image: url(../images/desktop/image-transform.jpg);
+}
+
+.hero-standout-img {
+  background-image: url(../images/desktop/image-stand-out.jpg);
+}
+
+.graphic-design {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+  color: hsl(167, 57%, 19%);
+}
+
+.photography-design {
+  background-image: url(../images/desktop/image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+  color: hsl(198, 75%, 19%);
+}
+
+.hero-skill {
+  padding: 50% 15% 8% 15%;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+
+.skill-text {
+  margin: 0 4.8rem;
+  font-size: 2rem;
+
+  line-height: 1.2;
+}
+
+.graphic-text {
+  color: hsl(167, 40%, 24%);
+}
+
+.photography-text {
+  color: hsl(198, 62%, 26%);
+}
+
+/*******************/
+/* TESTIMONIAL-SECTION */
+/*******************/
+
+.section-testimonial {
+  max-width: 130rem;
+  margin: 12rem auto;
+  text-align: center;
+}
+
+.testimonial-text-box {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+.testimonial-heading {
+  font-size: 4.4rem;
+  font-weight: 600;
+  color: hsl(232, 10%, 55%);
+  letter-spacing: 1.4px;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+}
+
+.testimonial-reviews {
+  margin: 9.6rem auto 0 auto;
+  font-family: "Barlow", sans-serif;
+  gap: 4.8rem;
+}
+.customer-img {
+  width: 7.2rem;
+  height: 7.2rem;
+  margin-bottom: 4.8rem;
+  border-radius: 100%;
+}
+
+.text-quote {
+  color: hsl(213, 9%, 39%);
+  line-height: 1.4;
+  margin-bottom: 4.8rem;
+  font-weight: 600;
+}
+
+.author-name {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+
+.author-position {
+  color: hsl(210, 4%, 67%);
+}
+
+.footer-img {
+  width: 100%;
+}
+
+.footer-text-box {
+  background-color: hsl(169, 26%, 63%);
+  padding: 6.4rem 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.footer-logo {
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(167, 40%, 24%);
+  font-size: 4.4rem;
+  font-weight: 800;
+  margin: 4.8rem 0 3.2rem 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Fraunces", serif;
+}
+
+.social-logo {
+  margin: 6.4rem auto 0 auto;
+  display: flex;
+  gap: 4.8rem;
+  justify-content: center;
+}
+.more-info {
+  gap: 9.6rem;
+  font-size: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: hsl(165, 31%, 36%);
+}
+
+.footer-link:active,
+.footer-link:hover {
+  color: #fff;
+}
+.social-icons:link,
+.social-icons:visited {
+  color: hsl(165, 31%, 36%);
+  font-size: 3.2rem;
+}
+
+.socil-icons:active,
+.social-icons:hover {
+  color: #fff;
+}
+
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+.primary-colors {
+  color: hsl(7, 99%, 70%);
+  color: hsl(51, 100%, 49%);
+  color: hsl(167, 40%, 24%);
+  color: hsl(198, 62%, 26%);
+  color: hsl(168, 34%, 41%);
+}
+
+.neutral-colors {
+  color: hsl(212, 27%, 19%);
+  color: hsl(213, 9%, 39%);
+  color: hsl(232, 10%, 55%);
+  color: hsl(210, 4%, 67%);
+}
+
+/* - Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%)
+- White: hsl(0, 0%, 100%) */
+
+/* - Soft red: hsl(7, 99%, 70%)
+- Yellow: hsl(51, 100%, 49%)
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
+- Dark blue (photography text): hsl(198, 62%, 26%)
+- Dark moderate cyan (footer): hsl(168, 34%, 41%) */
